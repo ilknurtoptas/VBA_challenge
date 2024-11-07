@@ -12,7 +12,7 @@ Sub QuarterlyStockAnalysis()
     Dim maxIncreaseTicker As String, maxDecreaseTicker As String, maxVolumeTicker As String
 
     ' Set the worksheet with the data
-    Set ws = ThisWorkbook.Sheets("Q4")
+    Set ws = ThisWorkbook.Sheets("Q1")
     
     ' Initialize variables
     summaryRow = 2
